@@ -33,3 +33,10 @@ cd Argocd
 kubectl apply -f application.yaml
 ```
 Now you can see your deployed application in the argocd web GUI, make a change to the yaml files in dev folder in the git repo and watch the changes happens.
+
+## For cleanup
+```
+kubectl delete -f application.yaml
+kubectl delete namesapce app
+kubectl delete namespace argocd
+```

@@ -32,4 +32,4 @@ cd Argocd
 ```
 kubectl apply -f application.yaml
 ```
-- Now you can see your deployed application in the argocd web GUI, make a change to the git repo and watch the changes happens
+## Now you can see your deployed application in the argocd web GUI, make a change to the git repo and watch the changes happens
